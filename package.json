@@ -3,12 +3,23 @@
   "version": "2.0.0",
   "description": "Electron powered OmNomCom application",
   "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
   "author": "Jesse Visser",
   "private": true,
+  "scripts:": {
+    "start": "electron .",
+    "postinstall": "electron-builder install-app-deps",
+    "build": "electron-builder --mac --windows --linux",
+    "release": "electron-builder --mac --windows --linux --publish always"
+  },
+  "build": {
+    "appId": "saproto.omnomcom",
+    "productName": "OmNomCom Application"
+  },
   "devDependencies": {
-    "electron": "^13.1.4"
+    "electron": "^13.1.4",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.9"
   }
 }
