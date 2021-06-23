@@ -1,0 +1,14 @@
+{
+  "name": "omnomcom-application",
+  "version": "2.0.0",
+  "description": "Electron powered OmNomCom application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jesse Visser",
+  "private": true,
+  "devDependencies": {
+    "electron": "^13.1.4"
+  }
+}
