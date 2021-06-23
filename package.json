@@ -1,7 +1,11 @@
 {
   "name": "omnomcom-application",
-  "version": "2.0.0",
+  "version": "1.0.1",
   "description": "Electron powered OmNomCom application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saproto/OmNomCom-App/"
+  },
   "main": "main.js",
   "author": "Jesse Visser",
   "private": true,
@@ -15,11 +19,11 @@
     "appId": "saproto.omnomcom",
     "productName": "OmNomCom Application"
   },
+  "dependencies": {
+    "update-electron-app": "^2.0.1"
+  },
   "devDependencies": {
     "electron": "^13.1.4",
     "electron-builder": "^22.11.7"
-  },
-  "dependencies": {
-    "electron-updater": "^4.3.9"
   }
 }
