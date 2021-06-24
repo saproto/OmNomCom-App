@@ -1,6 +1,6 @@
 <h1 align="center">
     <a href="https://proto.utwente.nl">
-        <img alt="Proto logo" src="build/icon.jpg" width="100">
+        <img alt="OmNomCom Logo" src="build/icon.png" width="100">
     </a>
     <br>
     OmNomCom App

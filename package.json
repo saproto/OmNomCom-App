@@ -1,6 +1,6 @@
 {
   "name": "omnomcom-application",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Electron powered OmNomCom application",
   "repository": {
     "type": "git",
