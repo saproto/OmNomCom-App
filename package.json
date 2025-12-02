@@ -1,6 +1,6 @@
 {
   "name": "omnomcom-application",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Electron powered OmNomCom application",
   "repository": {
     "type": "git",
@@ -17,14 +17,15 @@
   },
   "build": {
     "appId": "saproto.omnomcom",
-    "productName": "OmNomCom Application"
+    "productName": "OmNomCom Application",
+    "icon": "build/icon.ico"
   },
   "dependencies": {
-    "electron-updater": "^4.3.9",
-    "update-electron-app": "^2.0.1"
+    "electron-updater": "^6.6.2",
+    "update-electron-app": "^3.1.1"
   },
   "devDependencies": {
-    "electron": "^13.1.4",
-    "electron-builder": "^22.11.7"
+    "electron": "^39.2.4",
+    "electron-builder": "^26.0.12"
   }
 }
